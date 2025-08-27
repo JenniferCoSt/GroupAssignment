@@ -51,9 +51,9 @@ public class Questions {
         questions10.add(new Questions(7, "Säger chatgpt att det finns 2 \"r\" i engelskans ord för jordgubb?", true));
         questions10.add(new Questions(8, "Är talet 9,11 större än 9,9 enligt chatgpt? ", true));
         questions10.add(new Questions(9, "Gof är en ny stil likt Goth", false));
-        questions10.add(new Questions(10, "1+1", true));
-        questions10.add(new Questions(11, "", true));
-        questions10.add(new Questions(12, "", true));
+        questions10.add(new Questions(10, "1+1=2", true));
+        questions10.add(new Questions(11, "1+1=3", false));
+        questions10.add(new Questions(12, "1+3=1", false));
 
 
         return questions10;
